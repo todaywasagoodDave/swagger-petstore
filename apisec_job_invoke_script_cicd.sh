@@ -94,7 +94,7 @@ while [ "$taskStatus" == "WAITING" -o "$taskStatus" == "PROCESSING" ]
                         
                         if [ "$failedTestCount" == 0 ];then
                         testPass="True"
-                        echo "API Security Scan SUCCESS. Build pipeline will continue."                        
+                        echo "API Security Scan SUCCESS. Build pipeline will continue."              
                         exit 0
                         fi
 
