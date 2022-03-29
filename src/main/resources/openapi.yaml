@@ -559,6 +559,8 @@ paths:
           description: Invalid username supplied
         '404':
           description: User not found
+      security:
+        - basic_auth: []    
     put:
       tags:
         - user
