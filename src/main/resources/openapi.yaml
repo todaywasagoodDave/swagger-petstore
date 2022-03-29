@@ -1,6 +1,8 @@
 openapi: 3.0.2
 servers:
   - url: /v3
+security:
+  - basic_auth: []
 info:
   description: |-
     This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about
@@ -559,6 +561,8 @@ paths:
           description: Invalid username supplied
         '404':
           description: User not found
+        '401':
+          description: Not Authorized
       security:
         - basic_auth: []    
     put:
