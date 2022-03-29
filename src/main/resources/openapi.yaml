@@ -21,7 +21,7 @@ info:
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 tags:
   - name: pet
-    description: Everything about your Pets
+    description: Everything about your Petss
     externalDocs:
       description: Find out more
       url: 'http://swagger.io'
