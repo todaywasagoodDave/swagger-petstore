@@ -561,8 +561,6 @@ paths:
           description: Invalid username supplied
         '404':
           description: User not found
-        '401':
-          description: Not Authorized
       security:
         - basic_auth: []    
     put:
