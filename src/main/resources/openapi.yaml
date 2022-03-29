@@ -398,7 +398,9 @@ paths:
         '404':
           description: Order not found
       security:
-        - api_key: []      
+        - petstore_auth:
+            - 'write:pets'
+            - 'read:pets'
     delete:
       tags:
         - store
